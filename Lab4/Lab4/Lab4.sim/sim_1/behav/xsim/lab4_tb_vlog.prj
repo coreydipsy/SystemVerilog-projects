@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../385lab4_TopLevelMultiplier.sv" \
+"../../../../../385lab4_control.sv" \
+"../../../../../385lab4_hex.sv" \
+"../../../../../385lab4_reg_8.sv" \
+"../../../../../385lab4_ripple_adder.sv" \
+"../../../../../Synchronizers.sv" \
+"../../../../../lab4_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

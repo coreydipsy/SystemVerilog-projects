@@ -1,0 +1,28 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../Lab5.srcs/sources_1/new/ALU.sv" \
+"../../../../Lab5.srcs/sources_1/new/BEN.sv" \
+"../../../../Lab5.srcs/sources_1/new/BUS_MUX.sv" \
+"../../../../../provided/srcs/ISDU.sv" \
+"../../../../../provided/srcs/Instantiateram.sv" \
+"../../../../../provided/srcs/Mem2IO.sv" \
+"../../../../Lab5.srcs/sources_1/new/NZP.sv" \
+"../../../../Lab5.srcs/sources_1/new/PC_MUX.sv" \
+"../../../../Lab5.srcs/sources_1/new/REG_FILE.sv" \
+"../../../../../../Lab3/design_source/hex.sv" \
+"../../../../../provided/srcs/memory_contents.sv" \
+"../../../../Lab5.srcs/sources_1/new/mux_2to1_16bit.sv" \
+"../../../../Lab5.srcs/sources_1/new/mux_2to1_3bit.sv" \
+"../../../../Lab5.srcs/sources_1/new/mux_4to1_16bit.sv" \
+"../../../../Lab5.srcs/sources_1/new/reg_16.sv" \
+"../../../../../provided/srcs/slc3.sv" \
+"../../../../../provided/srcs/slc3_testtop.sv" \
+"../../../../../provided/srcs/synchronizers.sv" \
+"../../../../../provided/srcs/test_memory.sv" \
+"../../../../Lab5.srcs/sim_1/new/Lab5.1_test" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

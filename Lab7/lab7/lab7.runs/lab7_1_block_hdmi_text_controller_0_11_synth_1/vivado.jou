@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Mon Nov 13 20:27:22 2023
+# Process ID: 135332
+# Current directory: C:/Users/corey/UIUC/ECE/ECE385/Lab7/lab7/lab7.runs/lab7_1_block_hdmi_text_controller_0_11_synth_1
+# Command line: vivado.exe -log lab7_1_block_hdmi_text_controller_0_11.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source lab7_1_block_hdmi_text_controller_0_11.tcl
+# Log file: C:/Users/corey/UIUC/ECE/ECE385/Lab7/lab7/lab7.runs/lab7_1_block_hdmi_text_controller_0_11_synth_1/lab7_1_block_hdmi_text_controller_0_11.vds
+# Journal file: C:/Users/corey/UIUC/ECE/ECE385/Lab7/lab7/lab7.runs/lab7_1_block_hdmi_text_controller_0_11_synth_1\vivado.jou
+# Running On: Dawg, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 14, Host memory: 34014 MB
+#-----------------------------------------------------------
+source lab7_1_block_hdmi_text_controller_0_11.tcl -notrace

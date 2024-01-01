@@ -1,0 +1,1 @@
+vopt +acc=npr -l elaborate.log  -L xil_defaultlib -L xpm -L unisims_ver -L unimacro_ver -L secureip -work xil_defaultlib xil_defaultlib.hdmi_text_controller_0 xil_defaultlib.glbl -o hdmi_text_controller_0_opt

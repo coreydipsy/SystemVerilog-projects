@@ -1,0 +1,74 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot lab4_tb_behav xil_defaultlib.lab4_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'reset' [C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_TopLevelMultiplier.sv:57]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'ClearXA' [C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_TopLevelMultiplier.sv:34]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_TopLevelMultiplier.sv" Line 12. Module mult_toplevel_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_reg_8.sv" Line 1. Module reg_8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_reg_8.sv" Line 1. Module reg_8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_TopLevelMultiplier.sv" Line 1. Module onebitreg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_ripple_adder.sv" Line 15. Module ripple_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_ripple_adder.sv" Line 6. Module ADDER4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_ripple_adder.sv" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_ripple_adder.sv" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_ripple_adder.sv" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_ripple_adder.sv" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_ripple_adder.sv" Line 6. Module ADDER4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_ripple_adder.sv" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_ripple_adder.sv" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_ripple_adder.sv" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_ripple_adder.sv" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_ripple_adder.sv" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_control.sv" Line 5. Module control doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_hex.sv" Line 1. Module HexDriver_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_hex.sv" Line 11. Module nibble_to_hex doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_hex.sv" Line 11. Module nibble_to_hex doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_hex.sv" Line 11. Module nibble_to_hex doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_hex.sv" Line 11. Module nibble_to_hex doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/Synchronizers.sv" Line 4. Module sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/Synchronizers.sv" Line 4. Module sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_TopLevelMultiplier.sv" Line 12. Module mult_toplevel_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_reg_8.sv" Line 1. Module reg_8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_reg_8.sv" Line 1. Module reg_8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_TopLevelMultiplier.sv" Line 1. Module onebitreg doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_ripple_adder.sv" Line 15. Module ripple_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_ripple_adder.sv" Line 6. Module ADDER4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_ripple_adder.sv" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_ripple_adder.sv" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_ripple_adder.sv" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_ripple_adder.sv" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_ripple_adder.sv" Line 6. Module ADDER4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_ripple_adder.sv" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_ripple_adder.sv" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_ripple_adder.sv" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_ripple_adder.sv" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_ripple_adder.sv" Line 1. Module full_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_control.sv" Line 5. Module control doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_hex.sv" Line 1. Module HexDriver_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_hex.sv" Line 11. Module nibble_to_hex doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_hex.sv" Line 11. Module nibble_to_hex doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_hex.sv" Line 11. Module nibble_to_hex doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_hex.sv" Line 11. Module nibble_to_hex doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_hex.sv" Line 11. Module nibble_to_hex doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/Synchronizers.sv" Line 4. Module sync doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/corey/UIUC/ECE/ECE385/Lab4/Synchronizers.sv" Line 4. Module sync doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.reg_8
+Compiling module xil_defaultlib.onebitreg
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.ADDER4
+Compiling module xil_defaultlib.ripple_adder
+Compiling module xil_defaultlib.control
+Compiling module xil_defaultlib.nibble_to_hex
+Compiling module xil_defaultlib.HexDriver_default
+Compiling module xil_defaultlib.sync
+Compiling module xil_defaultlib.mult_toplevel_default
+Compiling module xil_defaultlib.lab4_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot lab4_tb_behav

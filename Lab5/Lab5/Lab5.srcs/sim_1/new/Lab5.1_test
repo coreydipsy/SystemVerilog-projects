@@ -1,0 +1,345 @@
+module Lab51_test();
+
+timeunit 10ns; // Half clock cycle at 50 MHz
+   // This is the amount of time represented by #1 
+timeprecision 1ns;
+
+// These signals are internal because the processor will be 
+// instantiated as a submodule in testbench.
+logic Clk = 0;
+
+logic [15:0] SW;
+logic Reset, Run, Continue;
+logic [15:0] LED;
+logic [7:0] hex_seg;
+logic [3:0] hex_grid;
+logic [7:0] hex_segB;
+logic [3:0] hex_gridB;
+
+
+
+    
+
+  
+// Instantiating the DUT
+// Make sure the module and signal names match with those in your design
+slc3_testtop bruhh(.*); 
+
+// Toggle the clock
+// #1 means wait for a delay of 1 timeunit
+always begin : CLOCK_GENERATION
+#1 Clk = ~Clk;
+end
+
+initial begin : CLOCK_INITIALIZATION
+    Clk = 0;
+end 
+
+// Testing begins here
+// The initial block is not synthesizable
+// Everything happens sequentially inside an initial block
+// as in a software program
+initial begin: TEST_VECTORS
+Continue = 1'b0;
+Run = 1'b0;
+#20
+#2 Continue = 1'b0;
+#2 Reset = 1'b1;
+#2 Reset = 1'b0;
+#20
+#20 SW = 16'h005A;
+#100
+#2 Run = 1'b1;
+//#4 Continue = 1;
+#2 Run = 1'b0;
+#500
+#2 SW = 16'h0002;
+#500
+#20 Continue = 1'b1;
+#2 Continue = 1'b0;
+#50000
+#2 SW = 16'h0003;
+#100
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#500
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+
+#100
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+
+#100
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+
+#100
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+    
+#100
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+#2 Continue = 1'b1;
+#2 Continue = 1'b0;
+
+
+//#20 SW = 16'h0002;
+//#200
+//#2 Continue = 1'b1;
+////#4 Continue = 1;
+//#10
+//#2 Continue = 1'b0;
+//#100
+//#20 SW = 16'h0003;
+//#200
+//#2 Continue = 1'b1;
+////#4 Continue = 1;
+//#10
+//#2 Continue = 1'b0;
+//#500
+//#2 Continue = 1'b0;
+//#20 SW = 16'h0002;
+//Continue = 1'b1;
+//#2 Continue = 1'b0;
+//#500
+//#2 Continue = 1'b1;
+
+//#2 Continue = 1'b0;
+
+//#500
+
+//#2 Continue = 1'b1;
+
+//
+//#200
+
+//#2 Continue = 1'b1;
+
+//#2 Continue = 1'b0;
+//#200
+
+//#2 Continue = 1'b1;
+
+//#2 Continue = 1'b0;
+//#20 SW = 16'h0002;
+//Continue = 1'b1;
+//#2 Continue = 1'b0;
+//#500
+//#20 SW = 16'h0100;
+//#2 Continue = 1'b1;
+
+//#5
+//#2 Continue = 1'b0;
+//#2 Continue = 1'b1;
+//#2 Continue = 1'b0;
+//#500
+//#2 Continue = 1'b1;
+//#2 Continue = 1'b0;
+//#500
+//#2 Continue = 1'b1;
+//#2 Continue = 1'b0;
+//#500
+//#2 Continue = 1'b1;
+//#2 Continue = 1'b0;
+
+////#2 SW = 16'h0005;
+////#2 Continue = 1'b1;
+////#2 Continue = 1'b0;
+//////#2 Continue = 1'b1;
+//////#2 Continue = 1'b0;
+
+////#10
+////#2 Continue = 1'b1;
+////#2 Continue = 1'b0;
+////#10
+////#2 Continue = 1'b1;
+////#2 Continue = 1'b0;
+////#10
+////#2 Continue = 1'b1;
+////#2 Continue = 1'b0;
+////#10
+////#2 Continue = 1'b1;
+////#2 Continue = 1'b0;
+
+    
+    
+end
+endmodule

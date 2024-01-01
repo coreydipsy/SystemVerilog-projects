@@ -1,0 +1,12 @@
+vhdl xil_defaultlib  \
+"../../../bd/lab7_1_block/ip/lab7_1_block_microblaze_0_1/sim/lab7_1_block_microblaze_0_1.vhd" \
+"../../../bd/lab7_1_block/ip/lab7_1_block_dlmb_v10_1/sim/lab7_1_block_dlmb_v10_1.vhd" \
+"../../../bd/lab7_1_block/ip/lab7_1_block_ilmb_v10_1/sim/lab7_1_block_ilmb_v10_1.vhd" \
+"../../../bd/lab7_1_block/ip/lab7_1_block_dlmb_bram_if_cntlr_1/sim/lab7_1_block_dlmb_bram_if_cntlr_1.vhd" \
+"../../../bd/lab7_1_block/ip/lab7_1_block_ilmb_bram_if_cntlr_1/sim/lab7_1_block_ilmb_bram_if_cntlr_1.vhd" \
+"../../../bd/lab7_1_block/ip/lab7_1_block_microblaze_0_axi_intc_1/sim/lab7_1_block_microblaze_0_axi_intc_1.vhd" \
+"../../../bd/lab7_1_block/ip/lab7_1_block_mdm_1_0/sim/lab7_1_block_mdm_1_0.vhd" \
+"../../../bd/lab7_1_block/ip/lab7_1_block_rst_clk_wiz_1_100M_0/sim/lab7_1_block_rst_clk_wiz_1_100M_0.vhd" \
+"../../../bd/lab7_1_block/ip/lab7_1_block_axi_uartlite_0_1/sim/lab7_1_block_axi_uartlite_0_1.vhd" \
+
+nosort

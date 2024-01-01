@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat Nov  4 01:01:04 2023
+# Process ID: 186288
+# Current directory: C:/Users/corey/UIUC/ECE/ECE385/Lab7/lab7/lab7.runs/lab7_1_block_ilmb_bram_if_cntlr_2_synth_1
+# Command line: vivado.exe -log lab7_1_block_ilmb_bram_if_cntlr_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source lab7_1_block_ilmb_bram_if_cntlr_2.tcl
+# Log file: C:/Users/corey/UIUC/ECE/ECE385/Lab7/lab7/lab7.runs/lab7_1_block_ilmb_bram_if_cntlr_2_synth_1/lab7_1_block_ilmb_bram_if_cntlr_2.vds
+# Journal file: C:/Users/corey/UIUC/ECE/ECE385/Lab7/lab7/lab7.runs/lab7_1_block_ilmb_bram_if_cntlr_2_synth_1\vivado.jou
+# Running On: Dawg, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 14, Host memory: 34014 MB
+#-----------------------------------------------------------
+source lab7_1_block_ilmb_bram_if_cntlr_2.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1002.859 ; gain = 118.777
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/corey/UIUC/ECE/ECE385/Lab7/ip_repo/hdmi_text_controller_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/corey/UIUC/ECE/ECE385/Lab6/hdmi_tx_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: lab7_1_block_ilmb_bram_if_cntlr_2
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 250b3e8e738a1c0e to dir: C:/Users/corey/UIUC/ECE/ECE385/Lab7/lab7/lab7.runs/lab7_1_block_ilmb_bram_if_cntlr_2_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/corey/UIUC/ECE/ECE385/Lab7/lab7/lab7.cache/ip/2022.2/2/5/250b3e8e738a1c0e/lab7_1_block_ilmb_bram_if_cntlr_1.dcp to C:/Users/corey/UIUC/ECE/ECE385/Lab7/lab7/lab7.runs/lab7_1_block_ilmb_bram_if_cntlr_2_synth_1/lab7_1_block_ilmb_bram_if_cntlr_2.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/corey/UIUC/ECE/ECE385/Lab7/lab7/lab7.cache/ip/2022.2/2/5/250b3e8e738a1c0e/lab7_1_block_ilmb_bram_if_cntlr_1_sim_netlist.v to C:/Users/corey/UIUC/ECE/ECE385/Lab7/lab7/lab7.runs/lab7_1_block_ilmb_bram_if_cntlr_2_synth_1/lab7_1_block_ilmb_bram_if_cntlr_2_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/corey/UIUC/ECE/ECE385/Lab7/lab7/lab7.cache/ip/2022.2/2/5/250b3e8e738a1c0e/lab7_1_block_ilmb_bram_if_cntlr_1_sim_netlist.vhdl to C:/Users/corey/UIUC/ECE/ECE385/Lab7/lab7/lab7.runs/lab7_1_block_ilmb_bram_if_cntlr_2_synth_1/lab7_1_block_ilmb_bram_if_cntlr_2_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/corey/UIUC/ECE/ECE385/Lab7/lab7/lab7.cache/ip/2022.2/2/5/250b3e8e738a1c0e/lab7_1_block_ilmb_bram_if_cntlr_1_stub.v to C:/Users/corey/UIUC/ECE/ECE385/Lab7/lab7/lab7.runs/lab7_1_block_ilmb_bram_if_cntlr_2_synth_1/lab7_1_block_ilmb_bram_if_cntlr_2_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/corey/UIUC/ECE/ECE385/Lab7/lab7/lab7.cache/ip/2022.2/2/5/250b3e8e738a1c0e/lab7_1_block_ilmb_bram_if_cntlr_1_stub.vhdl to C:/Users/corey/UIUC/ECE/ECE385/Lab7/lab7/lab7.runs/lab7_1_block_ilmb_bram_if_cntlr_2_synth_1/lab7_1_block_ilmb_bram_if_cntlr_2_stub.vhdl.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP lab7_1_block_ilmb_bram_if_cntlr_2, cache-ID = 250b3e8e738a1c0e.
+INFO: [Common 17-206] Exiting Vivado at Sat Nov  4 01:01:26 2023...

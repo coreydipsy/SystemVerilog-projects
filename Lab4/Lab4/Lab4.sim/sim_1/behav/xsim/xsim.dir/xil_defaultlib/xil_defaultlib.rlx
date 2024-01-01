@@ -1,0 +1,12 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_TopLevelMultiplier.sv,1696217304,systemVerilog,,C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_control.sv,,mult_toplevel;onebitreg,,uvm,,,,,,
+C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_control.sv,1696216992,systemVerilog,,C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_hex.sv,,control,,uvm,,,,,,
+C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_hex.sv,1696216992,systemVerilog,,C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_reg_8.sv,,HexDriver,,uvm,,,,,,
+C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_reg_8.sv,1696216992,systemVerilog,,C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_ripple_adder.sv,,reg_8,,uvm,,,,,,
+C:/Users/corey/UIUC/ECE/ECE385/Lab4/385lab4_ripple_adder.sv,1696215960,systemVerilog,,C:/Users/corey/UIUC/ECE/ECE385/Lab4/Synchronizers.sv,,ADDER4;full_adder;ripple_adder,,uvm,,,,,,
+C:/Users/corey/UIUC/ECE/ECE385/Lab4/Lab4/Lab4.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/corey/UIUC/ECE/ECE385/Lab4/Synchronizers.sv,1696216583,systemVerilog,,C:/Users/corey/UIUC/ECE/ECE385/Lab4/lab4_tb.sv,,sync;sync_r0;sync_r1,,uvm,,,,,,
+C:/Users/corey/UIUC/ECE/ECE385/Lab4/lab4_tb.sv,1696216406,systemVerilog,,,,lab4_tb,,uvm,,,,,,

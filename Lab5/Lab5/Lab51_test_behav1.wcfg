@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Lab51_test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Lab51_test" />
+            <top_module name="SLC3_2" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="677.400 ns"></ZoomStartTime>
+      <ZoomEndTime time="979.201 ns"></ZoomEndTime>
+      <Cursor1Time time="1,099.100 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="204"></NameColumnWidth>
+      <ValueColumnWidth column_width="155"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="94" />
+   <wvobject fp_name="/Lab51_test/bruhh/slc/SW" type="array">
+      <obj_property name="ElementShortName">SW[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SW[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/Clk" type="logic">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/Reset" type="logic">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/Run" type="logic">
+      <obj_property name="ElementShortName">Run</obj_property>
+      <obj_property name="ObjectShortName">Run</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/Continue" type="logic">
+      <obj_property name="ElementShortName">Continue</obj_property>
+      <obj_property name="ObjectShortName">Continue</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/LED" type="array">
+      <obj_property name="ElementShortName">LED[15:0]</obj_property>
+      <obj_property name="ObjectShortName">LED[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/Data_from_SRAM" type="array">
+      <obj_property name="ElementShortName">Data_from_SRAM[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_from_SRAM[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/OE" type="logic">
+      <obj_property name="ElementShortName">OE</obj_property>
+      <obj_property name="ObjectShortName">OE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/WE" type="logic">
+      <obj_property name="ElementShortName">WE</obj_property>
+      <obj_property name="ObjectShortName">WE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/hex_seg" type="array">
+      <obj_property name="ElementShortName">hex_seg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">hex_seg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/hex_grid" type="array">
+      <obj_property name="ElementShortName">hex_grid[3:0]</obj_property>
+      <obj_property name="ObjectShortName">hex_grid[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/hex_segB" type="array">
+      <obj_property name="ElementShortName">hex_segB[7:0]</obj_property>
+      <obj_property name="ObjectShortName">hex_segB[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/hex_gridB" type="array">
+      <obj_property name="ElementShortName">hex_gridB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">hex_gridB[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/ADDR" type="array">
+      <obj_property name="ElementShortName">ADDR[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/Data_to_SRAM" type="array">
+      <obj_property name="ElementShortName">Data_to_SRAM[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_to_SRAM[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/LD_MAR" type="logic">
+      <obj_property name="ElementShortName">LD_MAR</obj_property>
+      <obj_property name="ObjectShortName">LD_MAR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/LD_MDR" type="logic">
+      <obj_property name="ElementShortName">LD_MDR</obj_property>
+      <obj_property name="ObjectShortName">LD_MDR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/LD_IR" type="logic">
+      <obj_property name="ElementShortName">LD_IR</obj_property>
+      <obj_property name="ObjectShortName">LD_IR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/LD_BEN" type="logic">
+      <obj_property name="ElementShortName">LD_BEN</obj_property>
+      <obj_property name="ObjectShortName">LD_BEN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/LD_CC" type="logic">
+      <obj_property name="ElementShortName">LD_CC</obj_property>
+      <obj_property name="ObjectShortName">LD_CC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/LD_REG" type="logic">
+      <obj_property name="ElementShortName">LD_REG</obj_property>
+      <obj_property name="ObjectShortName">LD_REG</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/LD_PC" type="logic">
+      <obj_property name="ElementShortName">LD_PC</obj_property>
+      <obj_property name="ObjectShortName">LD_PC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/LD_LED" type="logic">
+      <obj_property name="ElementShortName">LD_LED</obj_property>
+      <obj_property name="ObjectShortName">LD_LED</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/GatePC" type="logic">
+      <obj_property name="ElementShortName">GatePC</obj_property>
+      <obj_property name="ObjectShortName">GatePC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/GateMDR" type="logic">
+      <obj_property name="ElementShortName">GateMDR</obj_property>
+      <obj_property name="ObjectShortName">GateMDR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/GateALU" type="logic">
+      <obj_property name="ElementShortName">GateALU</obj_property>
+      <obj_property name="ObjectShortName">GateALU</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/GateMARMUX" type="logic">
+      <obj_property name="ElementShortName">GateMARMUX</obj_property>
+      <obj_property name="ObjectShortName">GateMARMUX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/SR2MUX" type="logic">
+      <obj_property name="ElementShortName">SR2MUX</obj_property>
+      <obj_property name="ObjectShortName">SR2MUX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/ADDR1MUX" type="logic">
+      <obj_property name="ElementShortName">ADDR1MUX</obj_property>
+      <obj_property name="ObjectShortName">ADDR1MUX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/MARMUX" type="logic">
+      <obj_property name="ElementShortName">MARMUX</obj_property>
+      <obj_property name="ObjectShortName">MARMUX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/BEN" type="logic">
+      <obj_property name="ElementShortName">BEN</obj_property>
+      <obj_property name="ObjectShortName">BEN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/MIO_EN" type="logic">
+      <obj_property name="ElementShortName">MIO_EN</obj_property>
+      <obj_property name="ObjectShortName">MIO_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/DRMUX" type="logic">
+      <obj_property name="ElementShortName">DRMUX</obj_property>
+      <obj_property name="ObjectShortName">DRMUX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/SR1MUX" type="logic">
+      <obj_property name="ElementShortName">SR1MUX</obj_property>
+      <obj_property name="ObjectShortName">SR1MUX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/PCMUX" type="array">
+      <obj_property name="ElementShortName">PCMUX[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PCMUX[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/ADDR2MUX" type="array">
+      <obj_property name="ElementShortName">ADDR2MUX[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR2MUX[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/ALUK" type="array">
+      <obj_property name="ElementShortName">ALUK[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUK[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/MDR_In" type="array">
+      <obj_property name="ElementShortName">MDR_In[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MDR_In[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/MAR" type="array">
+      <obj_property name="ElementShortName">MAR[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MAR[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/holdbusmux" type="array">
+      <obj_property name="ElementShortName">holdbusmux[15:0]</obj_property>
+      <obj_property name="ObjectShortName">holdbusmux[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/MDR" type="array">
+      <obj_property name="ElementShortName">MDR[15:0]</obj_property>
+      <obj_property name="ObjectShortName">MDR[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/IR" type="array">
+      <obj_property name="ElementShortName">IR[15:0]</obj_property>
+      <obj_property name="ObjectShortName">IR[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/hex_4" type="array">
+      <obj_property name="ElementShortName">hex_4[3:0][3:0]</obj_property>
+      <obj_property name="ObjectShortName">hex_4[3:0][3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/holdpcval" type="array">
+      <obj_property name="ElementShortName">holdpcval[15:0]</obj_property>
+      <obj_property name="ObjectShortName">holdpcval[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/holdmarval" type="array">
+      <obj_property name="ElementShortName">holdmarval[15:0]</obj_property>
+      <obj_property name="ObjectShortName">holdmarval[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/holdmdrval" type="array">
+      <obj_property name="ElementShortName">holdmdrval[15:0]</obj_property>
+      <obj_property name="ObjectShortName">holdmdrval[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/holdpcmux" type="array">
+      <obj_property name="ElementShortName">holdpcmux[15:0]</obj_property>
+      <obj_property name="ObjectShortName">holdpcmux[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/holdirval" type="array">
+      <obj_property name="ElementShortName">holdirval[15:0]</obj_property>
+      <obj_property name="ObjectShortName">holdirval[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/hold_SR1_val" type="array">
+      <obj_property name="ElementShortName">hold_SR1_val[15:0]</obj_property>
+      <obj_property name="ObjectShortName">hold_SR1_val[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/hold_SR2_val" type="array">
+      <obj_property name="ElementShortName">hold_SR2_val[15:0]</obj_property>
+      <obj_property name="ObjectShortName">hold_SR2_val[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/ALU_B_input" type="array">
+      <obj_property name="ElementShortName">ALU_B_input[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_B_input[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/ALU_output" type="array">
+      <obj_property name="ElementShortName">ALU_output[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_output[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/ADDER_INPUT_1" type="array">
+      <obj_property name="ElementShortName">ADDER_INPUT_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDER_INPUT_1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/ADDER_INPUT_2" type="array">
+      <obj_property name="ElementShortName">ADDER_INPUT_2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDER_INPUT_2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/adder_result" type="array">
+      <obj_property name="ElementShortName">adder_result[15:0]</obj_property>
+      <obj_property name="ObjectShortName">adder_result[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/hold_mio_val" type="array">
+      <obj_property name="ElementShortName">hold_mio_val[15:0]</obj_property>
+      <obj_property name="ObjectShortName">hold_mio_val[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/pc_mux_select" type="array">
+      <obj_property name="ElementShortName">pc_mux_select[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_mux_select[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/input_to_SR1" type="array">
+      <obj_property name="ElementShortName">input_to_SR1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">input_to_SR1[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/input_to_DR" type="array">
+      <obj_property name="ElementShortName">input_to_DR[2:0]</obj_property>
+      <obj_property name="ObjectShortName">input_to_DR[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/SR1" type="logic">
+      <obj_property name="ElementShortName">SR1</obj_property>
+      <obj_property name="ObjectShortName">SR1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/DR" type="logic">
+      <obj_property name="ElementShortName">DR</obj_property>
+      <obj_property name="ObjectShortName">DR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/SR2" type="logic">
+      <obj_property name="ElementShortName">SR2</obj_property>
+      <obj_property name="ObjectShortName">SR2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/N" type="logic">
+      <obj_property name="ElementShortName">N</obj_property>
+      <obj_property name="ObjectShortName">N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/Z" type="logic">
+      <obj_property name="ElementShortName">Z</obj_property>
+      <obj_property name="ObjectShortName">Z</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/P" type="logic">
+      <obj_property name="ElementShortName">P</obj_property>
+      <obj_property name="ObjectShortName">P</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/state_controller/State" type="array">
+      <obj_property name="ElementShortName">State[5:0]</obj_property>
+      <obj_property name="ObjectShortName">State[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/ne_ze_po/Clk" type="logic">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/ne_ze_po/LD_CC" type="logic">
+      <obj_property name="ElementShortName">LD_CC</obj_property>
+      <obj_property name="ObjectShortName">LD_CC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/ne_ze_po/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/ne_ze_po/N_out" type="logic">
+      <obj_property name="ElementShortName">N_out</obj_property>
+      <obj_property name="ObjectShortName">N_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/ne_ze_po/P_out" type="logic">
+      <obj_property name="ElementShortName">P_out</obj_property>
+      <obj_property name="ObjectShortName">P_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/ne_ze_po/Z_out" type="logic">
+      <obj_property name="ElementShortName">Z_out</obj_property>
+      <obj_property name="ObjectShortName">Z_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/ne_ze_po/N" type="logic">
+      <obj_property name="ElementShortName">N</obj_property>
+      <obj_property name="ObjectShortName">N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/ne_ze_po/Z" type="logic">
+      <obj_property name="ElementShortName">Z</obj_property>
+      <obj_property name="ObjectShortName">Z</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/ne_ze_po/P" type="logic">
+      <obj_property name="ElementShortName">P</obj_property>
+      <obj_property name="ObjectShortName">P</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/who_is_ben/IR_11to9" type="array">
+      <obj_property name="ElementShortName">IR_11to9[2:0]</obj_property>
+      <obj_property name="ObjectShortName">IR_11to9[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/who_is_ben/N" type="logic">
+      <obj_property name="ElementShortName">N</obj_property>
+      <obj_property name="ObjectShortName">N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/who_is_ben/Z" type="logic">
+      <obj_property name="ElementShortName">Z</obj_property>
+      <obj_property name="ObjectShortName">Z</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/who_is_ben/P" type="logic">
+      <obj_property name="ElementShortName">P</obj_property>
+      <obj_property name="ObjectShortName">P</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/who_is_ben/LD_BEN" type="logic">
+      <obj_property name="ElementShortName">LD_BEN</obj_property>
+      <obj_property name="ObjectShortName">LD_BEN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/who_is_ben/Clk" type="logic">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/who_is_ben/BEN_GOING_HOME" type="logic">
+      <obj_property name="ElementShortName">BEN_GOING_HOME</obj_property>
+      <obj_property name="ObjectShortName">BEN_GOING_HOME</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/who_is_ben/BEN10" type="logic">
+      <obj_property name="ElementShortName">BEN10</obj_property>
+      <obj_property name="ObjectShortName">BEN10</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/ne_ze_po/Clk" type="logic">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/ne_ze_po/LD_CC" type="logic">
+      <obj_property name="ElementShortName">LD_CC</obj_property>
+      <obj_property name="ObjectShortName">LD_CC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/ne_ze_po/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/ne_ze_po/N_out" type="logic">
+      <obj_property name="ElementShortName">N_out</obj_property>
+      <obj_property name="ObjectShortName">N_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/ne_ze_po/P_out" type="logic">
+      <obj_property name="ElementShortName">P_out</obj_property>
+      <obj_property name="ObjectShortName">P_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/ne_ze_po/Z_out" type="logic">
+      <obj_property name="ElementShortName">Z_out</obj_property>
+      <obj_property name="ObjectShortName">Z_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/ne_ze_po/N" type="logic">
+      <obj_property name="ElementShortName">N</obj_property>
+      <obj_property name="ObjectShortName">N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/ne_ze_po/Z" type="logic">
+      <obj_property name="ElementShortName">Z</obj_property>
+      <obj_property name="ObjectShortName">Z</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/ne_ze_po/P" type="logic">
+      <obj_property name="ElementShortName">P</obj_property>
+      <obj_property name="ObjectShortName">P</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/holdpcmux" type="array">
+      <obj_property name="ElementShortName">holdpcmux[15:0]</obj_property>
+      <obj_property name="ObjectShortName">holdpcmux[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab51_test/bruhh/slc/PCMUX" type="array">
+      <obj_property name="ElementShortName">PCMUX[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PCMUX[1:0]</obj_property>
+   </wvobject>
+</wave_config>
